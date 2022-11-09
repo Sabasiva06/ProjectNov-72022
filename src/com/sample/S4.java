@@ -11,11 +11,12 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class S4 {
+	
 
 	public static void main(String[] args) {
 
 		Map<Integer, String> mp = new Hashtable<Integer, String>();
-
+		//To add a Data in Map
 		mp.put(2, "A");
 		mp.put(5, null);
 		mp.put(1, null);
