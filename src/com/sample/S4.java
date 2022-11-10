@@ -1,20 +1,23 @@
 package com.sample;
 
-import java.util.Collection;
-import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
-import java.util.TreeMap;
 
 public class S4 {
 	
 
 	public static void main(String[] args) {
-
+		
+		Set<String> st = new LinkedHashSet<String>();
+		
+		st.add("Raja");
+		st.add("rajan@gmail.com");
+		st.add("JAVA");
+		st.add("Automation");
+		st.add("OMR");
+	
 		Map<Integer, String> mp = new Hashtable<Integer, String>();
 		//To add a Data in Map
 		mp.put(2, "A");
