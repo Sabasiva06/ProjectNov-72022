@@ -10,7 +10,6 @@ public class S4 {
 	public static void main(String[] args) {
 
 		List<String> li = new ArrayList<String>();
-		
 		li.add("Bala");
 		li.add("bala@gmail.com");
 		li.add("Selenium");
