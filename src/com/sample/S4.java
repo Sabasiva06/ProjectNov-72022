@@ -1,10 +1,12 @@
 package com.sample;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -14,14 +16,14 @@ public class S4 {
 
 	public static void main(String[] args) {
 
-		Map<Integer, String> mp = new Hashtable<Integer, String>();
+		List<Integer> mp = new ArrayList<Integer>();
 
-		mp.put(2, "A");
-		mp.put(5, null);
-		mp.put(1, null);
-		mp.put(6, "b");
-		mp.put(2, null);
-
+		mp.add("Bala");
+		mp.add("bala@gmail.com");
+		mp.add("Selenium");
+		mp.add("Automation");
+		mp.add("Greens");
+		mp.add("OMT");
 		// {null=b,1=null,2=null}
 
 		System.out.println(mp);
