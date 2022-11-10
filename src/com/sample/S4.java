@@ -11,17 +11,17 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class S4 {
-	
 
 	public static void main(String[] args) {
 
-		Map<Integer, String> mp = new Hashtable<Integer, String>();
-		//To add a Data in Map
-		mp.put(2, "A");
-		mp.put(5, null);
-		mp.put(1, null);
-		mp.put(6, "b");
-		mp.put(2, null);
+		Map<String, String> mp = new Hashtable<String, String>();
+
+		// To add a Data in Map
+		mp.put("name", "Mani");
+		mp.put("email", "mani@gmail.com");
+		mp.put("course", "Automation Testing");
+		mp.put("institute", "Greens");
+		mp.put("branch", "OMR");
 
 		// {null=b,1=null,2=null}
 
@@ -29,8 +29,3 @@ public class S4 {
 
 	}
 }
-
-
-
-
-
